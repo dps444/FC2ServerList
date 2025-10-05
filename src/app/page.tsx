@@ -28,7 +28,7 @@ export default function Index() {
   }
   useEffect(()=>{
     getData();
-    //setInterval(getData,10000);
+    setInterval(getData,10000);
   },[]);
   return(
   <>
